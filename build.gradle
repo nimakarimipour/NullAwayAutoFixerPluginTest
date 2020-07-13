@@ -15,8 +15,8 @@ plugins {
 
 apply plugin: 'edu.ucr.cs.riple.demo.plugin'
 
-demoSetting {
-    message = "Hi from an extension"
+autoFixMode {
+    mode = "separate"
 }
 
 group 'org.example'
